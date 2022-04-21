@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import DavidLib
 
 class ViewController: UIViewController {
 
+    @IBOutlet var mainView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        mainView.backgroundColor = .green
+        mainView.addShadow()
+        mainView.addCornerRadius()
     }
 
     override func didReceiveMemoryWarning() {
