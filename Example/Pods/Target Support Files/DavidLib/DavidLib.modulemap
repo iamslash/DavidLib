@@ -1,0 +1,6 @@
+framework module DavidLib {
+  umbrella header "DavidLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

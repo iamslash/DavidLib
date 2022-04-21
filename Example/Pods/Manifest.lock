@@ -1,0 +1,16 @@
+PODS:
+  - DavidLib (0.1.0)
+
+DEPENDENCIES:
+  - DavidLib (from `../`)
+
+EXTERNAL SOURCES:
+  DavidLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DavidLib: fc47e6d3df642c48cb3c13429d59373634528475
+
+PODFILE CHECKSUM: 094e72e247a638c941f31370d9977965d5e88de8
+
+COCOAPODS: 1.11.2
